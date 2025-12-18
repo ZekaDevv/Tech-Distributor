@@ -1,0 +1,23 @@
+# ninja log v6
+387	3292	1764516817383128677	CMakeFiles/tech_distributor.dir/main.cpp.o	38b91bd4cae3110a
+68	387	1764516817375260861	/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/tech_distributor_autogen/timestamp	cae64e49710f0983
+388	3307	1764516817383579771	CMakeFiles/tech_distributor.dir/mainwindow.cpp.o	b7bf12d699d7d966
+387	2962	1764516817381260861	CMakeFiles/tech_distributor.dir/tech_distributor_autogen/mocs_compilation.cpp.o	dcdf902d7d6020c5
+68	387	1764516817375260861	tech_distributor_autogen/mocs_compilation.cpp	cae64e49710f0983
+3307	3567	1764516820301260782	tech_distributor	15d65a380d61e4d8
+68	387	1764516817375260861	/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/tech_distributor_autogen/mocs_compilation.cpp	cae64e49710f0983
+68	387	1764516817375260861	tech_distributor_autogen/timestamp	cae64e49710f0983
+44	242	1764516935386959931	build.ninja	3d5d0da36dc0bd9e
+388	3242	1764516817383896409	CMakeFiles/tech_distributor.dir/stackedwidget.cpp.o	9fee872bd30f6a1a
+2	38	1764516848715260008	/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/CMakeFiles/cmake.verify_globs	353aabc0125f85d9
+2	41	1764516944201257406	/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/CMakeFiles/cmake.verify_globs	353aabc0125f85d9
+42	258	1764516944452257400	tech_distributor_autogen/timestamp	cae64e49710f0983
+42	258	1764516944452257400	tech_distributor_autogen/mocs_compilation.cpp	cae64e49710f0983
+42	258	1764516944452257400	/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/tech_distributor_autogen/timestamp	cae64e49710f0983
+42	258	1764516944452257400	/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/tech_distributor_autogen/mocs_compilation.cpp	cae64e49710f0983
+258	2173	1764516944458864186	CMakeFiles/tech_distributor.dir/main.cpp.o	38b91bd4cae3110a
+258	2450	1764516944459051011	CMakeFiles/tech_distributor.dir/mainwindow.cpp.o	b7bf12d699d7d966
+258	2685	1764516944457257399	CMakeFiles/tech_distributor.dir/tech_distributor_autogen/mocs_compilation.cpp.o	dcdf902d7d6020c5
+2685	2958	1764516946884257333	tech_distributor	2da51b3835204b76
+3	41	1764780556433549611	/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/CMakeFiles/cmake.verify_globs	353aabc0125f85d9
+2	37	1764780831197545348	/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/CMakeFiles/cmake.verify_globs	353aabc0125f85d9

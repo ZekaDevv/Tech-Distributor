@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/images">
+        <file>image/headPF.jpg</file>
+        <file>image/key.jpg</file>
+        <file>image/laptop.jpg</file>
+        <file>image/monitor.jpg</file>
+        <file>image/mouse.jpg</file>
+        <file>image/PC.jpg</file>
+        <file>image/car_black.png</file>
+        <file>image/car_green.png</file>
+    </qresource>
+</RCC>

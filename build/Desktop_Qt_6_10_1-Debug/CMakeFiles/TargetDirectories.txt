@@ -1,0 +1,9 @@
+/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/CMakeFiles/tech_distributor.dir
+/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/CMakeFiles/edit_cache.dir
+/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/CMakeFiles/rebuild_cache.dir
+/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/CMakeFiles/list_install_components.dir
+/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/CMakeFiles/install.dir
+/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/CMakeFiles/install/local.dir
+/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/CMakeFiles/install/strip.dir
+/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/CMakeFiles/tech_distributor_autogen_timestamp_deps.dir
+/home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/CMakeFiles/tech_distributor_autogen.dir

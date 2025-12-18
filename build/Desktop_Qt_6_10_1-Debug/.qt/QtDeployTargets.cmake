@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_tech_distributor_FILE /home/zeka/Documents/projects/tech_distributor/build/Desktop_Qt_6_10_1-Debug/tech_distributor)
+set(__QT_DEPLOY_TARGET_tech_distributor_TYPE EXECUTABLE)
