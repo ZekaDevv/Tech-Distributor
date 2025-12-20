@@ -29,6 +29,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         products.h products.cpp products.ui
         resource.qrc
         shoppingcart.h shoppingcart.cpp shoppingcart.ui
+        newuser.h newuser.cpp newuser.ui
+        invoice.h invoice.cpp invoice.ui
 
     )
 # Define target properties for Android with Qt 6 as:

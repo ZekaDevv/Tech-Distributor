@@ -30,6 +30,8 @@ private slots:
     void on_addCart_clicked();
     void on_returnP1_clicked();
 
+    void on_buttonShoppingCart_clicked();
+
 private:
     Ui::Products *ui;
 

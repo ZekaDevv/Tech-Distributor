@@ -19,6 +19,8 @@ public:
 
 private slots:
     void on_bottonIng_clicked();
+    void on_newUser_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

@@ -1,12 +1,15 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "products.h"
+#include "newuser.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    setAttribute(Qt::WA_DeleteOnClose);
+    ui->input_psw->setEchoMode(QLineEdit::Password);
 }
 
 MainWindow::~MainWindow()
@@ -31,9 +34,12 @@ void MainWindow::on_bottonIng_clicked()
         this->hide();
 
         Products ventana;
+
         ventana.setModal(true);
         ventana.exec();
+
         this->show();
+
         ui->input_user->clear();
         ui->input_psw->clear();
 
@@ -45,5 +51,17 @@ void MainWindow::on_bottonIng_clicked()
 
     }
 
+}
+
+
+void MainWindow::on_newUser_clicked() {
+    newUser WindowNewUser;
+
+    this->hide();
+
+    WindowNewUser.setModal(true);
+    WindowNewUser.exec();
+
+    this->show();
 }
 

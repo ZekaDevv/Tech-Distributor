@@ -1,5 +1,6 @@
 #include "products.h"
 #include "ui_products.h"
+#include "shoppingcart.h"
 #include <QMap>
 #include <QVector>
 #include <QPropertyAnimation>
@@ -73,10 +74,23 @@ void Products::on_addCart_clicked() {
 
         spins[i].spin->setValue(0);
     }
+    if(!productsCant.empty()) ui->label_error->clear();
 
     if(validateCant) buttonChangeColor();
 }
 
 void Products::on_returnP1_clicked() {
     this->close();
+}
+
+void Products::on_buttonShoppingCart_clicked() {
+    shoppingCart WindowShoppingCart(productsCant);
+    if(validateCart) {
+        this->setWindowOpacity(0.5);
+        WindowShoppingCart.setModal(true);
+        WindowShoppingCart.exec();
+        this->setWindowOpacity(1.0);
+    }else {
+        ui->label_error->setText("Debes ingresar productos al carrito de compras para acceder");
+    }
 }

@@ -8,5 +8,8 @@
         <file>image/PC.jpg</file>
         <file>image/car_black.png</file>
         <file>image/car_green.png</file>
+        <file>image/arrowDown.png</file>
+        <file>image/arrowUp.png</file>
+        <file>image/loading-arrow.png</file>
     </qresource>
 </RCC>
