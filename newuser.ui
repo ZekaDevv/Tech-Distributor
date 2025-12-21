@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>334</width>
-    <height>509</height>
+    <width>566</width>
+    <height>428</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,10 +16,10 @@
   <property name="styleSheet">
    <string notr="true">background-color: rgb(255, 255, 255);</string>
   </property>
-  <widget class="QLineEdit" name="input_user">
+  <widget class="QLineEdit" name="input_name">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>50</x>
      <y>110</y>
      <width>221</width>
      <height>26</height>
@@ -32,7 +32,7 @@
   <widget class="QLabel" name="title">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>170</x>
      <y>20</y>
      <width>231</width>
      <height>41</height>
@@ -49,10 +49,10 @@ font: 500 20pt &quot;Ubuntu Sans&quot;;</string>
     <set>Qt::AlignmentFlag::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLabel" name="label_user">
+  <widget class="QLabel" name="label_name">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>50</x>
      <y>90</y>
      <width>81</width>
      <height>18</height>
@@ -66,11 +66,11 @@ font: 12pt &quot;Ubuntu Sans&quot;;</string>
     <string>Nombres</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_psw_2">
+  <widget class="QLabel" name="label_psw">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>300</y>
+     <x>290</x>
+     <y>230</y>
      <width>101</width>
      <height>18</height>
     </rect>
@@ -83,10 +83,98 @@ font: 12pt &quot;Ubuntu Sans&quot;;</string>
     <string>Contraseña</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="input_psw_2">
+  <widget class="QLineEdit" name="input_psw">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>290</x>
+     <y>250</y>
+     <width>221</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+   <property name="dragEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_lastName">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>110</y>
+     <width>221</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_lastName">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>90</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 12pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Apellidos</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_email">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>160</y>
+     <width>51</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 12pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Email</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_email">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>180</y>
+     <width>221</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_pswC">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
      <y>320</y>
      <width>221</width>
      <height>26</height>
@@ -111,99 +199,11 @@ font: 12pt &quot;Ubuntu Sans&quot;;</string>
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="QLineEdit" name="input_user_2">
+  <widget class="QLabel" name="label_pswC">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>180</y>
-     <width>221</width>
-     <height>26</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(0, 0, 0);</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_user_2">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>160</y>
-     <width>81</width>
-     <height>18</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(0, 0, 0);
-font: 12pt &quot;Ubuntu Sans&quot;;</string>
-   </property>
-   <property name="text">
-    <string>Apellidos</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_user_3">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>230</y>
-     <width>51</width>
-     <height>18</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(0, 0, 0);
-font: 12pt &quot;Ubuntu Sans&quot;;</string>
-   </property>
-   <property name="text">
-    <string>Email</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="input_user_3">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>250</y>
-     <width>221</width>
-     <height>26</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(0, 0, 0);</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="input_psw_3">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>390</y>
-     <width>221</width>
-     <height>26</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(0, 0, 0);</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="frame">
-    <bool>true</bool>
-   </property>
-   <property name="dragEnabled">
-    <bool>false</bool>
-   </property>
-   <property name="readOnly">
-    <bool>false</bool>
-   </property>
-   <property name="clearButtonEnabled">
-    <bool>false</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_psw_3">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>370</y>
+     <x>180</x>
+     <y>300</y>
      <width>191</width>
      <height>18</height>
     </rect>
@@ -216,11 +216,11 @@ font: 12pt &quot;Ubuntu Sans&quot;;</string>
     <string>Confirmar Contraseña</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="returnP1">
+  <widget class="QPushButton" name="goBack">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>450</y>
+     <x>190</x>
+     <y>380</y>
      <width>94</width>
      <height>26</height>
     </rect>
@@ -233,13 +233,13 @@ color: rgb(0, 0, 0);</string>
     <string>Volver</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_error_2">
+  <widget class="QLabel" name="label_error_name">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>50</x>
      <y>140</y>
      <width>221</width>
-     <height>20</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -247,16 +247,16 @@ color: rgb(0, 0, 0);</string>
 font: 8pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
-    <string>No pueden haber numeros en el nombre</string>
+    <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="label_error_3">
+  <widget class="QLabel" name="label_error_lastName">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>210</y>
+     <x>290</x>
+     <y>140</y>
      <width>221</width>
-     <height>20</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -264,14 +264,14 @@ font: 8pt &quot;Ubuntu Sans&quot;;</string>
 font: 8pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
-    <string>No pueden haber numeros en el apellido</string>
+    <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="label_error_4">
+  <widget class="QLabel" name="label_error_email">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>280</y>
+     <x>290</x>
+     <y>210</y>
      <width>241</width>
      <height>20</height>
     </rect>
@@ -281,14 +281,14 @@ font: 8pt &quot;Ubuntu Sans&quot;;</string>
 font: 8pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
-    <string>Formato incorrecto: cuenta@email.com</string>
+    <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="label_error_5">
+  <widget class="QLabel" name="label_error_psw">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>350</y>
+     <x>290</x>
+     <y>280</y>
      <width>221</width>
      <height>20</height>
     </rect>
@@ -298,31 +298,14 @@ font: 8pt &quot;Ubuntu Sans&quot;;</string>
 font: 8pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
-    <string>Contraseña no valida</string>
+    <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="label_error_6">
+  <widget class="QPushButton" name="registerUser">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>420</y>
-     <width>221</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(224, 27, 36);
-font: 8pt &quot;Ubuntu Sans&quot;;</string>
-   </property>
-   <property name="text">
-    <string>No coinciden las contraseñas</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="returnP1_2">
-   <property name="geometry">
-    <rect>
-     <x>180</x>
-     <y>450</y>
+     <x>300</x>
+     <y>380</y>
      <width>94</width>
      <height>26</height>
     </rect>
@@ -336,11 +319,105 @@ background-color: rgb(51, 209, 122);</string>
     <string>Registrar</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_error_7">
+  <widget class="QLabel" name="label_error_user">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>480</y>
+     <x>50</x>
+     <y>280</y>
+     <width>221</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(224, 27, 36);
+font: 8pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_user">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>250</y>
+     <width>221</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_user">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>230</y>
+     <width>81</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 12pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Usuario</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_id">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>160</y>
+     <width>81</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 12pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Cedula</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_error_id">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>210</y>
+     <width>221</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(224, 27, 36);
+font: 8pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_id">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>180</y>
+     <width>221</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_error_pswC">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>350</y>
      <width>221</width>
      <height>20</height>
     </rect>

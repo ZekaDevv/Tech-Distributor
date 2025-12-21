@@ -31,6 +31,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         shoppingcart.h shoppingcart.cpp shoppingcart.ui
         newuser.h newuser.cpp newuser.ui
         invoice.h invoice.cpp invoice.ui
+        admin.h admin.cpp admin.ui
+        modalmsh.h modalmsh.cpp modalmsh.ui
 
     )
 # Define target properties for Android with Qt 6 as:

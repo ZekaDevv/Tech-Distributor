@@ -27,17 +27,20 @@ private slots:
 
     void on_buttonBack_clicked();
 
+    void on_buttonBuy_clicked();
+
 private:
     Ui::shoppingCart *ui;
 
-    QMap  <QString, int> productsCantt;
-    QMap <QString, int> productsPrice;
     struct productInfo {
         QString name;
         int price;
         int cant;
         int priceTotal;
     };
+
+    QMap  <QString, int> productsCantt;
+    QMap <QString, int> productsPrice;
 
     QVector <productInfo> products;
     QVector <productInfo> productsSortD;

@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QJsonArray>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -21,8 +22,12 @@ private slots:
     void on_bottonIng_clicked();
     void on_newUser_clicked();
 
+    void on_joinAdmin_clicked();
+
 private:
     Ui::MainWindow *ui;
+
+    QJsonArray arrUsers;
 };
 
 #endif // MAINWINDOW_H

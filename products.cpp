@@ -90,6 +90,12 @@ void Products::on_buttonShoppingCart_clicked() {
         WindowShoppingCart.setModal(true);
         WindowShoppingCart.exec();
         this->setWindowOpacity(1.0);
+
+        productsCant = {};
+        ui->buttonShoppingCart->setIcon(QIcon(":/new/images/image/car_black.png"));
+        ui->buttonShoppingCart->setIconSize(QSize(25, 25));
+        validateCart = false;
+
     }else {
         ui->label_error->setText("Debes ingresar productos al carrito de compras para acceder");
     }

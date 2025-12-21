@@ -1,5 +1,6 @@
 #include "shoppingcart.h"
 #include "ui_shoppingcart.h"
+#include "invoice.h"
 #include <QString>
 #include <algorithm>
 
@@ -159,3 +160,15 @@ void shoppingCart::on_resetTable_clicked(){
 void shoppingCart::on_buttonBack_clicked() {
     this->close();
 }
+
+void shoppingCart::on_buttonBuy_clicked() {
+    invoice windowsInvoice;
+
+    this->setWindowOpacity(0.5);
+    windowsInvoice.setModal(true);
+    windowsInvoice.exec();
+    this->setWindowOpacity(1.0);
+
+    this->close();
+}
+

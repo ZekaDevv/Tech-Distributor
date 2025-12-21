@@ -15,6 +15,11 @@ public:
     explicit invoice(QWidget *parent = nullptr);
     ~invoice();
 
+private slots:
+    void on_goBack_clicked();
+
+    void on_buyConfirmation_clicked();
+
 private:
     Ui::invoice *ui;
 };
