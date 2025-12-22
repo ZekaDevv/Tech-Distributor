@@ -30,8 +30,13 @@ private:
     Ui::MainWindow *ui;
 
     QJsonArray arrUsers;
+    QJsonArray arrUsersAdmins;
 
-    void laodUser();
+    bool isAdmin;
+
+    bool logIn(const QJsonArray &arr);
+    void loadData(QJsonArray &arr, const QString &fileName);
+    void createDefaultAdmin();
 };
 
 #endif // MAINWINDOW_H

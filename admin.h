@@ -2,6 +2,8 @@
 #define ADMIN_H
 
 #include <QDialog>
+#include "QJsonArray"
+#include <QTableWidgetItem>
 
 namespace Ui {
 class admin;
@@ -22,6 +24,14 @@ private slots:
 
 private:
     Ui::admin *ui;
+
+    QString filePath;
+    QJsonArray arrProducts;
+
+    void createListProducts();
+    void checkProductsFile();
+    void loadProductsTable();
+    void onTableItemChanged(QTableWidgetItem *item);
 };
 
 #endif // ADMIN_H

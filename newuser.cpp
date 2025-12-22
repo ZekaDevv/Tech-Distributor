@@ -43,7 +43,7 @@ void newUser::loadUser() {
     QString path = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
     QDir dir(path);
     if (!dir.exists()) dir.mkpath(".");
-    filePath = path + "/usuarios_app.json";
+    filePath = dir.filePath("usuarios_app.json");;
 
     QFile file(filePath);
     if(file.open(QIODevice::ReadOnly)) {
@@ -60,10 +60,10 @@ void newUser::saveUser() {
     QJsonObject newUserObj;
     newUserObj["names"] = ui->input_name->text();
     newUserObj["lastNames"] = ui->input_lastName->text();
-    newUserObj["user"] = ui->input_user->text().toLower();
-    newUserObj["email"] = ui->input_email->text();
-    newUserObj["password"] = ui->input_psw->text();;
-    newUserObj["ID"] = ui->input_id->text();;
+    newUserObj["user"] = ui->input_user->text().trimmed().toLower();
+    newUserObj["email"] = ui->input_email->text().trimmed();
+    newUserObj["password"] = ui->input_psw->text().trimmed();;
+    newUserObj["ID"] = ui->input_id->text().trimmed();
 
     QFile file(filePath);
 
