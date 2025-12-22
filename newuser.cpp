@@ -60,7 +60,7 @@ void newUser::saveUser() {
     QJsonObject newUserObj;
     newUserObj["names"] = ui->input_name->text();
     newUserObj["lastNames"] = ui->input_lastName->text();
-    newUserObj["user"] = ui->input_user->text();
+    newUserObj["user"] = ui->input_user->text().toLower();
     newUserObj["email"] = ui->input_email->text();
     newUserObj["password"] = ui->input_psw->text();;
     newUserObj["ID"] = ui->input_id->text();;

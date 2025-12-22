@@ -19,15 +19,19 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_bottonIng_clicked();
+
     void on_newUser_clicked();
 
     void on_joinAdmin_clicked();
+
+    void on_bottonIng_clicked();
 
 private:
     Ui::MainWindow *ui;
 
     QJsonArray arrUsers;
+
+    void laodUser();
 };
 
 #endif // MAINWINDOW_H

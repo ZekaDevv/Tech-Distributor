@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>375</width>
-    <height>328</height>
+    <height>347</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -129,10 +129,13 @@ font: 14pt &quot;Ubuntu Sans&quot;;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_error">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>300</y>
+      <y>310</y>
       <width>231</width>
       <height>18</height>
      </rect>
