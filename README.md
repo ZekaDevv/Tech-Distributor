@@ -8,4 +8,4 @@ Sistema de inventario de una tienda de tecnologia desarrollada en C++ con QT6, p
 - Manejo de Stock
 - Manejo de Usuarios
 
-Proyecto presentado en Lenguaje de Programación II
+Proyecto presentado en Lenguaje de Programación I
